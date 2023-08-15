@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(19, 18, 18, 0.801)
+
+}
+/* HEADER STYLES */
+header{
+    background-color: rgb(48, 48, 107);
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 10px; */
+}
+li a{
+    text-transform: capitalize;
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* MAIN STYLES */
+main{
+    display: flex;
+    justify-content: center;
+}
+.box1,.box2,.box3{
+    display: flex;
+    width: 80px;
+    height: 60px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px;
+    background-color: rgb(193, 210, 216);
+    /* margin-top: 10px;
+    margin-left: 15px;
+     */
+}
+.box2{
+    margin-top: 65px;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: 2;
+}
+.box3{
+    transform: rotate(20deg);
+}
+.box1{
+    transform: rotate(-20deg);
+}
+.box1,.box3{
+    margin: 30px;
+
+}
+/* TOPOGRAPHY */
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: rgba(24, 22, 22, 0.712);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-transform: capitalize;
+}
